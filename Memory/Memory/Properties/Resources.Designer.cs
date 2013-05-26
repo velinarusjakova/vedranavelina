@@ -60,16 +60,202 @@ namespace Memory.Properties {
             }
         }
         
-        internal static System.Drawing.Bitmap im1 {
+        internal static System.IO.UnmanagedMemoryStream aah_01 {
             get {
-                object obj = ResourceManager.GetObject("im1", resourceCulture);
+                return ResourceManager.GetStream("aah_01", resourceCulture);
+            }
+        }
+        
+        internal static System.Drawing.Bitmap algoritmi {
+            get {
+                object obj = ResourceManager.GetObject("algoritmi", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
-        internal static System.Drawing.Bitmap im2 {
+        internal static System.Drawing.Bitmap AnastasMisev {
             get {
-                object obj = ResourceManager.GetObject("im2", resourceCulture);
+                object obj = ResourceManager.GetObject("AnastasMisev", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap AnderjGajduk {
+            get {
+                object obj = ResourceManager.GetObject("AnderjGajduk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.IO.UnmanagedMemoryStream beep_04 {
+            get {
+                return ResourceManager.GetStream("beep_04", resourceCulture);
+            }
+        }
+        
+        internal static System.Drawing.Bitmap BoroJakimovski {
+            get {
+                object obj = ResourceManager.GetObject("BoroJakimovski", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap cal {
+            get {
+                object obj = ResourceManager.GetObject("cal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.IO.UnmanagedMemoryStream cheer_01 {
+            get {
+                return ResourceManager.GetStream("cheer_01", resourceCulture);
+            }
+        }
+        
+        internal static System.Drawing.Bitmap conce {
+            get {
+                object obj = ResourceManager.GetObject("conce", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap DejanGorgievik {
+            get {
+                object obj = ResourceManager.GetObject("DejanGorgievik", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap dekan {
+            get {
+                object obj = ResourceManager.GetObject("dekan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap demonstrator {
+            get {
+                object obj = ResourceManager.GetObject("demonstrator", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap DimitarTrajanov {
+            get {
+                object obj = ResourceManager.GetObject("DimitarTrajanov", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap GjorgiMadzarov {
+            get {
+                object obj = ResourceManager.GetObject("GjorgiMadzarov", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap IvanCorbev {
+            get {
+                object obj = ResourceManager.GetObject("IvanCorbev", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap IvanKitanovski {
+            get {
+                object obj = ResourceManager.GetObject("IvanKitanovski", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap KaterinaTrojacanec {
+            get {
+                object obj = ResourceManager.GetObject("KaterinaTrojacanec", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap krs {
+            get {
+                object obj = ResourceManager.GetObject("krs", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap N1 {
+            get {
+                object obj = ResourceManager.GetObject("N1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap N2 {
+            get {
+                object obj = ResourceManager.GetObject("N2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap nrs {
+            get {
+                object obj = ResourceManager.GetObject("nrs", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap pozadina {
+            get {
+                object obj = ResourceManager.GetObject("pozadina", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap prodekan {
+            get {
+                object obj = ResourceManager.GetObject("prodekan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap superK {
+            get {
+                object obj = ResourceManager.GetObject("superK", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap TomceDelev {
+            get {
+                object obj = ResourceManager.GetObject("TomceDelev", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap vd {
+            get {
+                object obj = ResourceManager.GetObject("vd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap VericaBakeva {
+            get {
+                object obj = ResourceManager.GetObject("VericaBakeva", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap vizuelno {
+            get {
+                object obj = ResourceManager.GetObject("vizuelno", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap VladimirTrajkovik {
+            get {
+                object obj = ResourceManager.GetObject("VladimirTrajkovik", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

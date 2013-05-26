@@ -67,11 +67,47 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game.Designer.cs">
+      <DependentUpon>Game.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Square.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game.resx">
+      <DependentUpon>Game.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -116,10 +152,91 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\im2.jpg" />
+    <None Include="Resources\IvanCorbev.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\im1.png" />
+    <None Include="Resources\IvanKitanovski.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KaterinaTrojacanec.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BoroJakimovski.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DejanGorgievik.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DimitarTrajanov.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GjorgiMadzarov.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TomceDelev.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VericaBakeva.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnderjGajduk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnastasMisev.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VladimirTrajkovik.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\conce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pozadina.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aah-01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beep-04.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheer-01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\algoritmi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dekan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\demonstrator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\krs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\N1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\N2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nrs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prodekan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\superK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vizuelno.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

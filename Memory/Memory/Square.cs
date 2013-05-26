@@ -10,33 +10,35 @@ using System.Windows.Forms;
 
 namespace Memory
 {
-    class Square 
+    public class Square
     {
         public bool isSelected { get; set; }
-        public Square pair { get; set; }
-        public Button button;
-        public List<Square> vedrana;
+        public bool isGuessed { get; set; }
+        public Button button { get; set; }
+        public Image image { get; set; }
 
-        public Square(Square p, Button b)
+        public Square() { }
+        public Square(Button b1, Image i, string tag)
         {
             isSelected = false;
-            pair = p;
-            button = b;
-            vedrana.Add(p);
+            isGuessed = false;
+            button = b1;
+            image = i;
+            image.Tag = tag;
+            button.BackgroundImage = Properties.Resources.conce;
+            button.BackgroundImageLayout = ImageLayout.Center;
+
+
         }
 
+        public void open(Graphics g)
+        {
+            button.Visible = false;
+            g.DrawImage(this.image, button.Location);
+        }
 
-
-
-
-
-
-
-
-
-
-
-
-
+        public void close() {
+            button.Visible = true;
+        }
     }
 }
